@@ -1,18 +1,20 @@
+package Problem1;
+
 import java.io.*;
 import java.util.Arrays;
 
 public class Problem1 {
     public static void main(String[] args) {
         // Files that contains input
-//        File inputSmall = new File("D:\\raoinfotech\\src\\TWSP_small.txt");
-        File inputLarge = new File("D:\\raoinfotech\\src\\TWSP_large.txt");
+        File inputSmall = new File("D:\\raoinfotech\\src\\Problem1\\TWSP_large.txt");
+        File inputLarge = new File("D:\\raoinfotech\\src\\Problem1\\TWSP_large.txt");
 
         // Files that'll get output for both datasets
-//        File outputSmall = new File("D:\\raoinfotech\\src\\P1OutputSmall.txt");
-        File outputLarge = new File("D:\\raoinfotech\\src\\P1OutputLarge.txt");
+        File outputSmall = new File("D:\\raoinfotech\\src\\Problem1\\P1OutputSmall.txt");
+        File outputLarge = new File("D:\\raoinfotech\\src\\Problem1\\P1OutputLarge.txt");
 
         // For small dataset
-//        solveProblem(inputSmall, outputSmall);
+        solveProblem(inputSmall, outputSmall);
         // And for large dataset
         solveProblem(inputLarge, outputLarge);
     }
